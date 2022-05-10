@@ -23,7 +23,16 @@ const NovedadesPage = (props) => {
 
     return (
         <section className="holder" id='novedades'>
-            <h2>Servicios que puede contratar</h2>
+            <div className='row'>
+                <div className='col-3'>
+                    <img className='nov1' src='images/novedades.jpg' alt='serv1'/> 
+                </div>
+                <div className='col-9'>
+                    <h2>Servicios que puede contratar</h2>
+                </div>
+                
+            </div>
+            
             <div className='row'>
 
                 {loading ? (

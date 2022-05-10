@@ -1,6 +1,6 @@
 #novedades h2{
     margin-top: 35px;
-    text-align: center;
+    text-align: left;
 }
 
 #novedades h3{
@@ -11,7 +11,7 @@
 }
 
 #novedades h4{
-    width: 75%;
+    width: 85%;
     float: left
 }
 
@@ -19,6 +19,17 @@
     margin-top: 0;
     text-align: justify;
 }
+
+#novedades .col-3{
+    text-align: right;
+}
+
+#novedades img.nov1{
+    width: 85%;
+    margin: 20px 0 10px 0px;
+}
+
+
 #novedades .imgNov{
 width: 10%;
     float: right;

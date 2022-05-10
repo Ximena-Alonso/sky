@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/componentes/Pages/GaleriaPage.css'
-const GaleriaPage = (props)=>{
+const GaleriaPage = (props) => {
     return (
         <seccion className="holder">
             <div className='galeria'>
@@ -8,7 +8,7 @@ const GaleriaPage = (props)=>{
                 <div className='hidraulicos'>
                     <h3>HIDRAULICOS</h3>
                     <div className='foto'>
-                        <img src='images/Galeria/hidra/imag1.jpg' alt='hidra1'></img>
+                        <img src='images/Galeria/hidra/imag1.jpg' alt='hidra2'></img>
                     </div>
                     <div className='foto'>
                         <img src='images/Galeria/hidra/imag2.jpg' alt='hidra2'></img>
@@ -67,10 +67,14 @@ const GaleriaPage = (props)=>{
                 </div>
             </div>
 
+
+            
+   
         </seccion>
 
     );
 }
+
 
 
 export default GaleriaPage;
