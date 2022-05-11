@@ -1,7 +1,11 @@
-#nosotros h3 {
+#nosotros h2 {
     margin-bottom: 1px;
     margin-top: 0;
-    font-size: 1.4em;
+}
+
+#nosotros .staff h2{
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 #nosotros .descripcion {
@@ -23,7 +27,7 @@
     text-align: center;
     max-width: 210px;
     background-color: white;
-    box-shadow: 13px -12px 14px 3px black;
+    box-shadow: 8px -7px 14px 3px #98c1c7;
 }
 
 
@@ -43,10 +47,6 @@
     margin: 5px;
     font-size: 0.83em;
 }
-
-
-
-
 
 #nosotros .pic-ctn {
     width: 100vw;
@@ -95,10 +95,6 @@
     animation: ani 12.5s infinite;
 }
 
-/*#nosotros .pic:nth-child(1) {
-    animation-delay: 2.5s;
-}*/
-
 #nosotros .pic:nth-child(2) {
     animation-delay: 2.5s;
 }
@@ -117,25 +113,32 @@
 
 
 @media (max-width:590px) {
-    #nosotros h3 {
+    h2 {
         font-size: 1.2em;
     }
 
-    #nosotros p {
-        font-size: 0.83em;
+    p {
+        font-size: 0.85em;
+    }
+    #nosotros .pic p {
+        font-size: 0.85em;
     }
 }
 
 @media (max-width:390px) {
-    #nosotros h3 {
+    h2 {
         font-size: 1em;
     }
 
-    #nosotros p {
-        font-size: 0.73em;
+    p {
+        font-size: 0.78em;
     }
+    #nosotros .pic p {
+        font-size: 0.78em;
+    }
+
     #nosotros .pic {
-        max-width: 150px;
+        max-width: 160px;
     }
     #nosotros .pic h5,
     #nosotros .pic h6 {
@@ -143,6 +146,10 @@
     }
     #nosotros .pic img {
         max-width: 70%;
+    }
+
+    #nosotros .pic-ctn>.pic {
+        left: calc(50% - 105px);
     }
 }
 

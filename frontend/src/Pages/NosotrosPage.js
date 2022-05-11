@@ -8,12 +8,12 @@ const NosotrosPage = (props) => {
                     <img src='images/nosotros/nos1.jpg' alt='nos1'></img>
                 </div>
                 <div className='descripcion'>
-                    <h3>Factor de exito sostenible de nuestra empresa: Capital Humano</h3>
+                    <h2>Factor de exito sostenible de nuestra empresa: Capital Humano</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing edivt. Ipsa divbero at vitae soluta voluptates, sed ipsum nemo iure quo maiores architecto tenetur eius dignissimos hic sapiente rerum ipsam ea facidivs?.Lorem ipsum, dolor sit amet consectetur adipisicing edivt. Vedivt sunt nemo, impedit nulla ipsa officiis assumenda consequatur neque quaerat ratione. Sint odio aut quae illo voluptates porro quia divbero sed.</p>
                 </div>
 
                 <div className='staff'>
-                    <h3>Staff</h3>
+                    <h2>Staff</h2>
                     <div class="pic-ctn">
                         <div className='pic' id='1'>
                             <figure> <img src='images/nosotros/nosotros1.jpg' alt='nosotros1'></img>
