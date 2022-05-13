@@ -1,65 +1,63 @@
-#novedades h2{
-    margin-top: 35px;
+#novedades h3{
+    margin-top: 10%;
     text-align: left;
 }
 
-#novedades h3{
-    margin-bottom: 0;
-    margin-top: 10px;
-    width: 90%;
-    float: left;
-}
-
-#novedades h4{
-    width: 85%;
-    float: left
-}
-
-#novedades p{
-    margin-top: 0;
-    text-align: justify;
-}
-
-#novedades .col-3{
+#novedades .col-4{
     text-align: right;
 }
 
 #novedades img.nov1{
-    width: 85%;
+    width: 80%;
     margin: 20px 0 10px 0px;
 }
 
-
 #novedades .imgNov{
-width: 10%;
-    float: right;
-    position: absolute;
+    width: 70%;
 }
 
-.descripNov {
-    width: 80%;
+#novedades th.col-3{
+    text-align: center;
 }
 
-@media (max-width:590px) {
-    h4{
-       font-size: 1.3em;
-   }    
-   h5{
-    font-size: 1.1em;
+#novedades td#serv.col-1{
+    font-size: 16px;
+    color: rgb(18, 126, 161);
+    font-weight: 700;
+}
+
+#novedades td.col-3{
+    text-align: center;
+}
+
+@media (max-width:700px) {
+    .descripNov{
+       font-size: 12px;
     }    
-    #novedades .imgNov{
-        width: 15%
-    }  
+   #novedades .imgNov{
+    width: 100%;
+    }
+    #novedades td#serv.col-1{
+        font-size: 14px;
+    } 
 }
 
-@media (max-width:390px) {
-    h4{
-       font-size: 1.1em;
-   }    
+@media (max-width:500px) {
+    .descripNov{
+        font-size: 10px;
+    }
+    #novedades tbody tr{
+        display: grid;
+    grid-template-columns: 75% 25%;
+    }
+    #novedades tbody td{
+        width: 100%;
+    }
+
+    tr.table-secondary {
+        display: none;
+    }
    h5{
     font-size: 0.9em;
-    }  
-    #novedades .imgNov{
-        width: 20%
     }      
 }

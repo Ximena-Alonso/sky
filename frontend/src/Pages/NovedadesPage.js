@@ -24,11 +24,11 @@ const NovedadesPage = (props) => {
     return (
         <section className="holder" id='novedades'>
             <div className='row'>
-                <div className='col-3'>
+                <div className='col-4'>
                     <img className='nov1' src='images/novedades.jpg' alt='serv1'/> 
                 </div>
-                <div className='col-9'>
-                    <h2>Servicios que puede contratar</h2>
+                <div className='col-8'>
+                    <h3>Servicios que puede contratar</h3>
                 </div>
                 
             </div>
