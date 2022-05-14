@@ -7,10 +7,15 @@
     width: 100%;
 }
 
+.formato{
+    margin: 20px 5%;
+} 
+
 #empresa .eleccion{
     line-height: 30px; 
     margin-top: 20px;
     margin-bottom: 20px;
+    margin: 20px 0 ;
 }   
 
 .eleccion h3{
@@ -28,6 +33,7 @@
 #empresa .row{
     padding-top: 30px;
     text-align: justify;
+    text-align: -webkit-center;
 }
 
 #empresa .card{
@@ -55,15 +61,15 @@
     }
 
     #empresa .accordion-button{
-        font-size: 0.6em;
+        font-size: 14px;
     }
 
     #empresa .accordion-body{
-        font-size: 1em;
+        font-size: 14px;
     }
     
     #empresa .card-text {
-        font-size: 0.9em;
+        font-size: 14px;
     }
   
 }
@@ -74,15 +80,15 @@
     }
 
     #empresa .accordion-button{
-        font-size: 0.83em;
+        font-size: 12px;
     }
 
     #empresa .accordion-body{
-        font-size: 0.8em;
+        font-size: 12px;
     }
     
     #empresa .card-text {
-        font-size: 1em;
+        font-size: 1.2em;
     }
   
    

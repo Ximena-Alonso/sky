@@ -1,3 +1,6 @@
+#galeria p{
+    margin-top: 20px;
+}
 #galeria .foto{
     display: inline-block;
     width: 22%;
@@ -12,7 +15,7 @@
     width: 100%;
 }
 
-#galeria h2 {
+#galeria h3 {
     text-align: center;
     margin: 20px 0;
     box-sizing: content-box;

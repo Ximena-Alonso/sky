@@ -1,14 +1,11 @@
 #novedades h3{
-    margin-top: 10%;
-    text-align: left;
-}
-
-#novedades .col-4{
-    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 #novedades img.nov1{
-    width: 80%;
+    width: 100%;
     margin: 20px 0 10px 0px;
 }
 
@@ -57,7 +54,5 @@
     tr.table-secondary {
         display: none;
     }
-   h5{
-    font-size: 0.9em;
-    }      
+      
 }

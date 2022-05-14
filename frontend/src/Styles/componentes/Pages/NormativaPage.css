@@ -1,7 +1,17 @@
 #normativa h3{
     line-height: 30px;
-    margin-top: 10px;
-    text-align: center;
+}
+
+.comp-des {
+    line-height: 22px;
+    text-align: justify;
+    align-self: center;
+    margin-bottom: 35px;
+}
+
+#normativa img{
+    width: 100%;
+    margin-top: 20px;
 }
 
 .container_grid1 {
@@ -10,7 +20,7 @@
     grid-template-rows: auto auto auto auto auto;
     grid-gap: 8px;
     text-align: center;
-    padding: 15px 10px; 
+    padding: 5px 10px; 
 }
 
 .container_grid1 div,
@@ -73,6 +83,10 @@
     font-size: 1.1em;
     }    
     
+    .compliance-grid{
+        display: block;
+    }
+
     .container_grid1 {
         grid-template-columns: auto auto;
         grid-template-rows:auto auto auto auto;
@@ -116,12 +130,12 @@
 }
 
 
-@media (max-width:390px) {
+@media (max-width:450px) {
     h4{
-       font-size: 1.1em;
+       font-size: 1.3em;
    }    
    h5{
-    font-size: 0.9em;
+    font-size: 1.3em;
     }     
     
     .container_grid1 {

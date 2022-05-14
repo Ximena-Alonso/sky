@@ -1,18 +1,44 @@
-#nosotros h2 {
+#nosotros h3 {
     margin-bottom: 1px;
     margin-top: 0;
 }
 
-#nosotros .staff h2{
+#nosotros .objetivos{
+    overflow: hidden;
+    margin: 10px 5px;
+}
+#nosotros .objetivos .obj{
+    width: 65%;
+}
+
+#nosotros .objetivos img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+#nosotros .objetivos:nth-child(odd) img{
+    float: right;
+}
+#nosotros .objetivos:nth-child(even) .obj{
+    float: right;
+}
+#nosotros .objetivos:nth-child(even) img{
+    float: left;
+}
+#nosotros .objetivos:nth-child(odd) .obj{
+    float: left;
+}
+
+#nosotros .staff h3{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 #nosotros .descripcion {
     text-align: justify;
 }
 
-#nosotros .descripcion img {
+#nosotros img {
     margin: 15px 0;
     width: 100%;
     align-items: center;
@@ -37,20 +63,11 @@
     max-width: 90%;
 }
 
-#nosotros .pic h5,
-#nosotros .pic h6 {
-    margin: 0;
-    font-size: 1.1em;
-}
+
 
 #nosotros .pic p {
     margin: 5px;
     font-size: 0.83em;
-}
-
-#nosotros .pic-ctn {
-    width: 100vw;
-    height: 200px;
 }
 
 @keyframes ani {
@@ -82,15 +99,15 @@
 
 #nosotros .pic-ctn {
     position: relative;
-    width: 100vw;
-    height: 310px;
+    width: 100%;
+    height: 340px;
     margin-top: 10px;
 }
 
 #nosotros .pic-ctn>.pic {
     position: absolute;
     top: 0;
-    left: calc(50% - 150px);
+    left: calc(50% - 125px);
     opacity: 0;
     animation: ani 12.5s infinite;
 }
@@ -113,25 +130,23 @@
 
 
 @media (max-width:590px) {
-    h2 {
-        font-size: 1.2em;
-    }
-
     p {
-        font-size: 0.85em;
+        font-size: 0.86em;
     }
     #nosotros .pic p {
         font-size: 0.85em;
     }
+    #nosotros .objetivos img{
+        display: none;
+    }
+    #nosotros .objetivos .obj{
+        width: 100%;
+    }
 }
 
 @media (max-width:390px) {
-    h2 {
-        font-size: 1em;
-    }
-
     p {
-        font-size: 0.78em;
+        font-size: 0.83em;
     }
     #nosotros .pic p {
         font-size: 0.78em;
@@ -149,16 +164,12 @@
     }
 
     #nosotros .pic-ctn>.pic {
-        left: calc(50% - 105px);
+        left: calc(50% - 80px);
     }
 }
 
 @media (min-width:900px) {
-    #nosotros h3 {
-        font-size: 1.5em;
-    }
-
-    
+        
     #nosotros .pic {
         max-width: 250px;
     }
