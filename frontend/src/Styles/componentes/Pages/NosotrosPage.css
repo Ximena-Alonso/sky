@@ -64,14 +64,11 @@
     box-shadow: 8px -7px 14px 3px #98c1c7;
 }
 
-
 #nosotros .pic img {
     border-radius: 50%;
     margin: 0.8em;
     max-width: 60%;
 }
-
-
 
 #nosotros .pic p {
     margin: 5px;
@@ -185,9 +182,7 @@
     #nosotros .staff .staff-des {
         align-self: center;
         text-align: justify;
-    }
-
-    
+    }  
 
     #nosotros .pic-ctn {
         width: 80%;

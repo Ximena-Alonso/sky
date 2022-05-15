@@ -11,9 +11,8 @@ const HomePage = (props) => {
                     <div>
                         <h3>LA EMPRESA</h3>
                         <p>Somos una empresa dedicada a brindar servicios integrales para el transporte vertical con mas de 30 años de experiencia.
-                        Desarrollar ascensores innovadores - eso es lo que nos inspira, día tras día, año tras año. Ofrecemos una amplia variedad de sistemas de elevación que se adaptan a todo tipo de arquitectura, espacio y necesidades.</p>
+                            Desarrollar ascensores innovadores - eso es lo que nos inspira, día tras día, año tras año. Ofrecemos una amplia variedad de sistemas de elevación que se adaptan a todo tipo de arquitectura, espacio y necesidades.</p>
                         <p>Para cualquier tipo de edificio, nuestros productos mejoran la seguridad del usuario, maximizan la eficiencia, aprovechan al máximo el espacio disponible, son sostenibles y ofrecen un confort de viaje superior
-
                         </p>
                     </div>
                     <div className='eleccion'>

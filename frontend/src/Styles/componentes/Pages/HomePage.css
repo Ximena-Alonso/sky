@@ -7,6 +7,9 @@
     width: 100%;
 }
 
+#empresa p{
+    text-align: justify;
+}
 .formato{
     margin: 20px 5%;
 } 
@@ -89,7 +92,5 @@
     
     #empresa .card-text {
         font-size: 1.2em;
-    }
-  
-   
+    }   
 }

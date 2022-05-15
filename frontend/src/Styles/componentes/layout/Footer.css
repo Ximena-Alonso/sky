@@ -33,7 +33,7 @@ footer i:hover{
 
 @media  (max-width:520px) {
     footer h5 {
-        font-size: 0.8em;
+        font-size: 0.73em;
     }   
 
     .fab, .far, .fas {

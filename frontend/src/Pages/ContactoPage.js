@@ -59,7 +59,6 @@ const ContactoPage = (props) => {
                             <i className="fab fa-twitter">  <b>Twiter: Sky Ascensores</b></i>
                             <i className="fas fa-at">Email: contacto@skyascensores</i>
                         </div>
-
                     </div>
                     <div className='columna right'>
                         <h2>Contactese con nosotros</h2>
@@ -83,7 +82,6 @@ const ContactoPage = (props) => {
 
                             <p className='centrar '><input type='submit' value='Enviar' />
                             </p>
-
                         </form>
                         {sending ? <p>Enviando...</p> : null}
                         {msg ? <p> {msg} </p> : null}
@@ -91,7 +89,6 @@ const ContactoPage = (props) => {
                 </div>
             </div>
         </seccion>
-
     );
 }
 

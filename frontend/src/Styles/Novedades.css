@@ -28,7 +28,7 @@
 }
 
 @media (max-width:700px) {
-    .descripNov{
+    #novedaes .descripNov{
        font-size: 12px;
     }    
    #novedades .imgNov{

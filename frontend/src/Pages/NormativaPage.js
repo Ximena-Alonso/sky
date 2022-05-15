@@ -8,7 +8,6 @@ const NormativaPage = (props) => {
                 <h3>COMPLIANCE</h3>
                 <div className='comp-des'>
                     <p>Para nosotros, Compliance significa más que simplemente obedecer reglas y regulaciones. El Compliance es una cuestión de mentalidad. La confiabilidad, la honestidad y la integridad son parte de nuestro ADN. Preferimos perder un contrato que ganarlo rompiendo las reglas.</p>
-
                 </div>
                 <h3>Normativas y regulaciones vigentes en la República Argentina.</h3>
                 <div className='container_grid1'> <h4>ASCENSORES</h4>

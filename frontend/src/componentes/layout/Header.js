@@ -6,8 +6,7 @@ const Header = (props)=>{
             <div className="holder">
                 <div className="logo">
                     <img src= "images/logo.jpg" width="100" alt= " SKY ascensores"/>
-                    <h1>SKY Ascensores</h1>
-                    
+                    <h1>SKY Ascensores</h1>         
                 </div>
 
             </div>

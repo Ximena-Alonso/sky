@@ -34,6 +34,7 @@
 #servicios .servicios img{
     border-radius: 1em;
     width: 20%;
+    margin-top: 2%;
 }
 
 #servicios .servicios:nth-child(even) img{
@@ -52,7 +53,18 @@
     float: right;
 }
 
-@media  (max-width:590px) {
+@media  (max-width:630px) {
+    #servicios .servicios .ser_info{
+        width: 60%;
+    }
+    
+    #servicios .servicios img{
+        border-radius: 1em;
+        width: 35%;
+    }
+}
+
+@media  (max-width:450px) {
     #servicios .servicios .ser_info,
     #servicios .servicios img{
         float: none  !important;

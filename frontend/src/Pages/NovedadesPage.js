@@ -22,8 +22,7 @@ const NovedadesPage = (props) => {
 
 
     return (
-        <section className="holder" id='novedades'>
-            
+        <section className="holder" id='novedades'>   
             <img className='nov1' src='images/novedades.jpg' alt='serv1' />
             <h3>SERVICIOS QUE PUEDE CONTRATAR</h3>
             <div className='row'>

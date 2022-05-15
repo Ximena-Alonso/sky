@@ -1,4 +1,3 @@
-
 nav{
     background:#bef6e9;
 }
@@ -47,7 +46,7 @@ nav ul li a.activo {
 
 @media (max-width:390px) {
     nav ul li{
-        font-size: 0.55em;
+        font-size: 0.5em;
         
     }   
 }

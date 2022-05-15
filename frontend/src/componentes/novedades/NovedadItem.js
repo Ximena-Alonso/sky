@@ -23,13 +23,10 @@ const NovedadItem = (props) => {
                                                         <td className="col-7"><div className='descripNov' dangerouslySetInnerHTML={{ __html: descrip }} /></td>
                                                         <td className="col-3"><img className='imgNov' src={imagen} /> </td>
                                                 </tr>
-                                                </tbody>  
-
+                                        </tbody>
                                 </table>
                         </div>
-                        
                         <hr />
-
                 </div>
         );
 }
