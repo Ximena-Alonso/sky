@@ -24,7 +24,7 @@ router.get ('/novedades', async function (req, res, next) {
                 imagen:''
             }
         }
-    });
+    });    
     res.json (novedades);
 });
 

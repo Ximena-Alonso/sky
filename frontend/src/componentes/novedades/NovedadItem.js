@@ -2,7 +2,7 @@ import React from 'react';
 
 const NovedadItem = (props) => {
         const { service, time, imagen, descrip } = props;
-
+        
         return (
                 <div className="novedades">
                         <div className='col'>

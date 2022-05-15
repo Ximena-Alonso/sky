@@ -8,6 +8,7 @@ import '../Styles/Novedades.css';
 const NovedadesPage = (props) => {
     const [loading, setLoading] = useState(false);
     const [novedades, setNovedades] = useState([]);
+    
 
     useEffect(() => {
         const cargarNovedades = async () => {
@@ -23,7 +24,7 @@ const NovedadesPage = (props) => {
 
     return (
         <section className="holder" id='novedades'>   
-            <img className='nov1' src='images/novedades.jpg' alt='serv1' />
+            <img className='nov1' src='images/novedades.jpg' alt='serv1' />            
             <h3>SERVICIOS QUE PUEDE CONTRATAR</h3>
             <div className='row'>
 

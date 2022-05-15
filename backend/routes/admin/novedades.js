@@ -35,7 +35,6 @@ router.get('/', async function (req, res, next) {
     layout: 'admin/layout',
     usuario: req.session.nombre,
     novedades
-
   });
 });
 
@@ -58,7 +57,6 @@ router.post('/agregar', async (req, res, next) => {
     }
 
     if (req.body.Servicio != "" && req.body.Plazo != "" && req.body.Descripcion != "") {
-      console.log(img_id);
       await novedadesModel.insertNovedades({
         ...req.body,
         usuario,
@@ -99,7 +97,6 @@ router.get('/eliminar/:item', async (req, res, next) => {
 /* GET para modificar --> traer novedad por item. */
 router.get('/modificar/:item', async (req, res, next) => {
   let item = req.params.item;
-  console.log(req.params.item);
   var novedad = await novedadesModel.getNovedadesById(item);
 
   res.render('admin/modificar', {
@@ -146,6 +143,5 @@ router.post('/modificar', async (req, res, next) => {
     })
   }
 });
-
 
 module.exports = router;

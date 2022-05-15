@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 05-05-2022 a las 22:54:31
+-- Tiempo de generación: 15-05-2022 a las 21:03:23
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `nov1` (
   `Descripcion` varchar(500) NOT NULL,
   `img_id` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`item`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=45 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=49 ;
 
 --
 -- Volcado de datos para la tabla `nov1`
@@ -47,8 +47,8 @@ INSERT INTO `nov1` (`item`, `usuario`, `Servicio`, `Plazo`, `Descripcion`, `img_
 (4, 'flavia', 'Servicio de instalación de ascensor  ', '2 meses   ', 'Servicio de planificación e instalación según establece la legislación. Entrega de planos finalizada la obra. Se realizará modificaciones en caso de que la inspección municipal lo requiera', 'timy6fffmmqnyvxrq3dq'),
 (5, 'flavia', 'Servicio de  habilitación  de ascensor  ', '2 meses    ', 'Servicio de habilitación con puesta en marcha, realización y recopilación de documentación necesaria, recepción de visita del inspector municipal', 'tkw2u63xlmuaq2cenztm'),
 (32, 'flavia', 'Servicio reparación ascensor ', '1 semanas   ', 'Alcance: reparacion y repuestos', 'zukbq9s9dj7uxfco8uws'),
-(40, 'ximena', 'Servicio reparación montacarga ', '2 semanas     ', 'Servicio de reparación. Incluye mano de obra y materiales', 'aoiqwhszdtrapqrgbymv'),
-(44, 'ximena', 'Servicio de instalación y habilitación montacarga ', '3 meses ', 'Servicio de instalación con confección de planos y habilitación según legislación vigente.', 'qagasqnxyokle3jckzyx');
+(40, 'ximena', 'Servicio reparación montacarga  ', '3 semanas      ', 'Servicio de reparación. Incluye mano de obra y materiales', 'aoiqwhszdtrapqrgbymv '),
+(44, 'ximena', 'Servicio de instalación y habilitación montacarga  ', '3 meses  ', 'Servicio de instalación con confección de planos y habilitación según legislación vigente.', 'qagasqnxyokle3jckzyx ');
 
 -- --------------------------------------------------------
 
